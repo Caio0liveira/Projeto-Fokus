@@ -35,7 +35,7 @@ musicafoco.addEventListener('change', ()=>{
 //data-contexto do html para o que eu desejo alterar que é o estilo de foco,descanso etc
 
 focoBt.addEventListener('click', () => {
-    tempoDecorridoSegundos = 1600
+    tempoDecorridoSegundos = 1500
     alterarContexto('foco')
     focoBt.classList.add('active')
 });
